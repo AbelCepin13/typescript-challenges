@@ -16,3 +16,18 @@ const corolla: Car = {
     color: "Red",
     inWarranty: true
 }
+
+interface Console {
+    model:string;
+    company:string;
+    cost:number;
+    color:string;
+}
+const ps5: Console= {
+    model:"ps5",
+    company:"Sony",
+    cost:500,
+    color:"White"
+
+
+}
